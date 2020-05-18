@@ -40,12 +40,4 @@ if __name__ == "__main__":
 
     if (args.instagram):
         print_instagram(args.instagram)
-
-    if (args.discord):
-        if (not args.discord_auth_token):
-            print("Discord ile araştırma yapmak için bir auth token ayarlamalısın!")
-            parser.print_help()
-            _exit(0)
-        
-
         
