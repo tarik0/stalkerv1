@@ -28,7 +28,7 @@ if __name__ == "__main__":
     args, parser = parse_args()
     
     print(Style.RESET_ALL, end="")
-    if (args.instagram == None and args.twitter == None and args.spotify == None and args.discord == None):
+    if (args.instagram == None and args.spotify == None):
         parser.print_help()
         _exit(0)
 
